@@ -37,6 +37,26 @@ export const Icons = {
             quality="100"
             priority={true}
             />
-    }    
+    },
+    foodClubPng: (props: IconProps) => {
+        <Image
+            src="/foodclub_logo.png"
+            alt="FoodClub Logo"
+            width="80"
+            height="80"
+            quality="100"
+            priority={true}
+        />
+    },
+    tenZymePng: (props: IconProps) => {
+        <Image
+            src="/10zyme.png"
+            alt="10zyme Logo"
+            width="80"
+            height="80"
+            quality="100"
+            priority={true}
+        />
+    }
 
 }
