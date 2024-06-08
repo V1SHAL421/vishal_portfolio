@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter()
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -107,6 +109,15 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+        <button type="button" onClick={() => router.push('/projects')}>
+          Experience
+        </button>
+        <button type="button" onClick={() => router.push('/projects')}>
+          Projects
+        </button>
+        <button type="button" onClick={() => router.push('/projects')}>
+          Contact
+        </button>
       </div>
     </main>
   );
