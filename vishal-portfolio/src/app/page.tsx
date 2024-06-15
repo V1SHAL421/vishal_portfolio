@@ -28,6 +28,16 @@ export default function Home() {
       className: "text-purple-700"
     }
   ]
+  const name = [
+    {
+      text: "Vishal",
+      className: "text-white"
+    },
+    {
+      text: "Kumar",
+      className: "text-white"
+    }
+  ]
 
   return (
     <WavyBackground className="max-w-4xl mx-auto pb-40">
@@ -71,6 +81,7 @@ export default function Home() {
           </button>
           </div>
         </div>
+        <TypewriterEffect words={name} className="mt-20"/>
       </div>
     </main>
     </WavyBackground>

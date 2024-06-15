@@ -18,7 +18,7 @@ export const Icons = {
             priority={true}
         />
     ),
-    ibmLogoPng: (props: IconProps) => {
+    ibmLogoPng: (props: IconProps) => (
         <Image
             src="/ibm_logo.png"
             alt="IBM Logo"
@@ -27,8 +27,8 @@ export const Icons = {
             quality="100"
             priority={true}
         />
-    },
-    vishalPng: (props: IconProps) => {
+    ),
+    vishalPng: (props: IconProps) => (
         <Image
             src="/vishal.png"
             alt="Vishal"
@@ -37,18 +37,18 @@ export const Icons = {
             quality="100"
             priority={true}
             />
-    },
-    foodClubPng: (props: IconProps) => {
+    ),
+    foodClubPng: (props: IconProps) => (
         <Image
             src="/foodclub_logo.png"
             alt="FoodClub Logo"
-            width="80"
-            height="80"
+            width="100"
+            height="70"
             quality="100"
             priority={true}
         />
-    },
-    tenZymePng: (props: IconProps) => {
+    ),
+    tenZymePng: (props: IconProps) => (
         <Image
             src="/10zyme.png"
             alt="10zyme Logo"
@@ -57,16 +57,65 @@ export const Icons = {
             quality="100"
             priority={true}
         />
-    },
-    linkedInPng: (props: IconProps) => {
+    ),
+    linkedInPng: (props: IconProps) => (
         <Image
-            src="linkedin_icon.png"
+            src="/linkedin_icon.png"
             alt="LinkedIn Icon"
             width="100"
             height="100"
             quality="100"
             priority={true}
         />
-    }
-
+    ),
+    denrJpg: (props: IconProps) => (
+        <Image
+            src="/denr_logo.jpg"
+            alt="Denr Logo"
+            width="100"
+            height="100"
+            quality="100"
+            priority={true}
+        />
+    ),
+    appenJpg: (props: IconProps) => (
+        <Image
+            src="/appen_logo.jpg"
+            alt="Appen Logo"
+            width="100"
+            height="100"
+            quality="100"
+            priority={true}
+        />
+    ),
+    nxtuitionsJpg: (props: IconProps) => (
+        <Image
+            src="/nxtuitions_logo.jpg"
+            alt="NxTuitions Logo"
+            width="100"
+            height="100"
+            quality="100"
+            priority={true}
+        />
+    ),
+    devoirJpg: (props: IconProps) => (
+        <Image
+            src="/devoir_logo.jpg"
+            alt="Devoir Logo"
+            width="80"
+            height="60"
+            quality="100"
+            priority={true}
+        />
+    ),
+    kclPng: (props: IconProps) => (
+        <Image
+            src="/kcl.png"
+            alt="KCL Logo"
+            width="80"
+            height="60"
+            quality="100"
+            priority={true}
+        />
+    )
 }
