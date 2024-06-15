@@ -57,6 +57,16 @@ export const Icons = {
             quality="100"
             priority={true}
         />
+    },
+    linkedInPng: (props: IconProps) => {
+        <Image
+            src="linkedin_icon.png"
+            alt="LinkedIn Icon"
+            width="100"
+            height="100"
+            quality="100"
+            priority={true}
+        />
     }
 
 }
