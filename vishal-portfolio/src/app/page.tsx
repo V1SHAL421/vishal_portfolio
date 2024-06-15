@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import { Icons } from "@/components/icons";
 import vishal from "@/../public/vishal.png"
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
+import { AuroraBackground } from "@/components/ui/aurora-background";
+import { WavyBackground } from "@/components/ui/wavy-background";
 
 export default function Home() {
   const router = useRouter()
@@ -28,10 +30,11 @@ export default function Home() {
   ]
 
   return (
+    <WavyBackground className="max-w-4xl mx-auto pb-40">
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full flex-col max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <TypewriterEffect words={words} className="mb-20"/>
-        <div className="flex flex-row items-center">
+        <div className="flex flex-row items-center mt-20">
           <Image
             src={vishal}
             alt="Vishal"
@@ -41,7 +44,7 @@ export default function Home() {
             placeholder="blur"
             className="w-auto max-w-xs rounded-full mx-auto"
           />
-          <div className="flex flex-col items-center px-4 py-4">
+          <div className="flex flex-col items-center px-4 py-4 ml-32">
           <button
             type="button"
             onClick={() => router.push('/experience')}
@@ -70,5 +73,6 @@ export default function Home() {
         </div>
       </div>
     </main>
+    </WavyBackground>
   );
 }
