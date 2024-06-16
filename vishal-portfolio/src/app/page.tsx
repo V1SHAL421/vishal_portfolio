@@ -62,7 +62,7 @@ export default function Home() {
           <button
             type="button"
             onClick={() => router.push('/experience')}
-            className="rounded mt-4 mb-4 bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold"
+            className="block w-[200px] h-[50px] rounded mt-4 mb-4 bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold"
           >
             Experience
           </button>
@@ -71,7 +71,7 @@ export default function Home() {
           <button
             type="button"
             onClick={() => router.push('/myprojects')}
-            className="rounded mt-4 mb-4 bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold"
+            className="block w-[200px] h-[50px] rounded mt-4 mb-4 bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold"
           >
             Projects
           </button>
@@ -79,7 +79,7 @@ export default function Home() {
           <button
             type="button"
             onClick={() => router.push('/technologies')}
-            className="rounded mt-4 mb-4 bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold"
+            className="block w-[200px] h-[50px] rounded mt-4 mb-4 bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold"
           >
             Technologies
           </button>
