@@ -29,14 +29,14 @@ const items = [
   {
     title: "Daily Delve",
     description: "Immersed in a personal project where I built a website featuring both a public blog and a private diary.",
-    header: <Skeleton />,
+    header: <div className="flex flex-col items-center justify-center w-full mt-4"><Icons.diaryPng className="justify-center"/></div>,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Handwritten-digits-classification",
     description:
       "The simple MNIST classification model is built using PyTorch and visualized with Matplotlib. It is designed to recognize handwritten digits from the MNIST dataset.",
-      header: <Skeleton />,
+      header: <div className="flex flex-col items-center justify-center w-full mt-4"><Icons.mnistClassificationPng className="justify-center"/></div>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
@@ -54,13 +54,13 @@ const items = [
   {
     title: "HFT",
     description: "Created ML algorithms for A high performance, low latency high frequency trading system written in C++.",
-    header: <Skeleton />,
+    header: <div className="flex flex-col items-center justify-center w-full mt-8"><Icons.hftPng className="justify-center"/></div>,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "AirBNB Project",
     description: "Constructed an AirBNB project in a team of four through leveraging Java frameworks.",
-    header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.kclPng className="justify-center"/></div>,
+    header: <div className="flex flex-col items-center justify-center w-full mt-16"><Icons.kclPng className="justify-center"/></div>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   

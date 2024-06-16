@@ -339,6 +339,16 @@ export const Icons = {
             priority={true}
             />
     ),
+    mnistClassificationPng: (props: IconProps) => (
+        <Image
+            src="/mnist.png"
+            alt="MNIST"
+            width="75"
+            height="75"
+            quality="100"
+            priority={true}
+            />
+    ),
     neuralNetworkPng: (props: IconProps) => (
         <Image
             src="/neural_networks.jpg"
@@ -373,6 +383,36 @@ export const Icons = {
         <Image
             src="/openai_logo.jpg"
             alt="LLM"
+            width="150"
+            height="150"
+            quality="100"
+            priority={true}
+        />
+    ),
+    diaryPng: (props: IconProps) => (
+        <Image
+            src="/diary.jpg"
+            alt="Diary"
+            width="500"
+            height="500"
+            quality="100"
+            priority={true}
+        />
+    ),
+    timeSeriesPng: (props: IconProps) => (
+        <Image
+            src="/time_series.jpg"
+            alt="LLM"
+            width="150"
+            height="150"
+            quality="100"
+            priority={true}
+        />
+    ),
+    hftPng: (props: IconProps) => (
+        <Image
+            src="/hft.png"
+            alt="HFT"
             width="150"
             height="150"
             quality="100"
