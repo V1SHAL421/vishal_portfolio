@@ -179,6 +179,74 @@ const devops = [
       },
 ]
 
+const ai = [
+    {
+        id: 0,
+        name: "Prompt Engineering",
+        designation: "Providing prompts for the model as a means of demonstration.",
+        content: (
+            <Icons.promptEngineeringPng />
+        ),
+    },
+    {
+        id: 1,
+        name: "HyperOpt",
+        designation: "Tool that provides optimized hyperparameters.",
+        content: (
+        <Icons.hyperoptPng />
+        ),
+    },
+    {
+        id: 2,
+        name: "LLMs",
+        designation: "Large Language Models (T5, BERT, Electra, Babbage, Ada)",
+        content: (
+            <Icons.openaiPng />
+        ),
+    },
+    {
+    id: 3,
+    name: "Reinforcement Learning",
+    designation: "Q-Learning, Temporal Difference Learning, SARSA",
+    content: (
+        <Icons.reinforcementLearningPng />
+    ),
+    },
+    {
+    id: 4,
+    name: "Number Classifaction",
+    designation: "Can be done with the MNIST dataset.",
+    content: (
+        <Icons.mnistPng />
+    ),
+    },
+    {
+    id: 5,
+    name: "Image Classification",
+    designation: "OpenCV, DLib, Numpy, Haarcascades",
+    content: (
+        <Icons.imageClassificationPng />
+    ),
+    },
+    {
+    id: 6,
+    name: "Data Visualization",
+    designation: "Matplotlib",
+    content: (
+        <Icons.dataVisualizationPng />
+    ),
+    },
+    {
+    id: 7,
+    name: "Neural Networks",
+    designation: "Recurrent Neural Networks, Convolutional Neural Networks",
+    content: (
+    <Icons.neuralNetworkPng />
+    ),
+    },
+
+];
+
 export default function Page() {
     return (
     <>
@@ -200,7 +268,7 @@ export default function Page() {
         </>
     </LampContainer>
     <LampContainer>
-    <>
+        <>
         <h1>DevOps</h1>
         <div className="h-[40rem] flex items-center justify-center w-full">
             <CardStack items={devops} />
@@ -208,7 +276,12 @@ export default function Page() {
         </>
     </LampContainer>
     <LampContainer>
-    <h1>Artificial Intelligence</h1>
+        <>
+        <h1>Artificial Intelligence</h1>
+        <div className="h-[40rem] flex items-center justify-center w-full">
+            <CardStack items={ai} />
+        </div>
+        </>
     </LampContainer>
     </>
     )

@@ -298,4 +298,85 @@ export const Icons = {
             priority={true}
             />
     ),
+
+    dataVisualizationPng: (props: IconProps) => (
+        <Image
+            src="/data_visualization.jpeg"
+            alt="Data Visualization"
+            width="250"
+            height="250"
+            quality="100"
+            priority={true}
+            />
+    ),
+    hyperoptPng: (props: IconProps) => (
+        <Image
+            src="/hyperopt.png"
+            alt="Hyperopt Logo"
+            width="100"
+            height="100"
+            quality="100"
+            priority={true}
+            />
+    ),
+    imageClassificationPng: (props: IconProps) => (
+        <Image
+            src="/image_classification.jpg"
+            alt="Image Classification"
+            width="250"
+            height="250"
+            quality="100"
+            priority={true}
+            />
+    ),
+    mnistPng: (props: IconProps) => (
+        <Image
+            src="/mnist.png"
+            alt="MNIST"
+            width="150"
+            height="150"
+            quality="100"
+            priority={true}
+            />
+    ),
+    neuralNetworkPng: (props: IconProps) => (
+        <Image
+            src="/neural_networks.jpg"
+            alt="Neural Networks"
+            width="150"
+            height="150"
+            quality="100"
+            priority={true}
+            />
+    ),
+    promptEngineeringPng: (props: IconProps) => (
+        <Image
+            src="/prompt_engineering.png"
+            alt="Prompt Engineering"
+            width="250"
+            height="250"
+            quality="100"
+            priority={true}
+            />
+    ),
+    reinforcementLearningPng: (props: IconProps) => (
+        <Image
+            src="/reinforcement_learning.png"
+            alt="Reinforcement Learning"
+            width="150"
+            height="150"
+            quality="100"
+            priority={true}
+            />
+    ),
+    openaiPng: (props: IconProps) => (
+        <Image
+            src="/openai_logo.jpg"
+            alt="LLM"
+            width="150"
+            height="150"
+            quality="100"
+            priority={true}
+        />
+    )
 }
