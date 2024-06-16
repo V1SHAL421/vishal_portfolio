@@ -117,5 +117,75 @@ export const Icons = {
             quality="100"
             priority={true}
         />
-    )
+    ),
+    golangPng: (props: IconProps) => (
+        <Image
+            src="/golang.png"
+            alt="Golang Logo"
+            width="300"
+            height="300"
+            quality="100"
+            priority={true}
+            />
+    ),
+    cPlusPlusPng: (props: IconProps) => (
+        <Image
+            src="/c++_logo.png"
+            alt="C++ Logo"
+            width="150"
+            height="150"
+            quality="100"
+            priority={true}
+            />
+    ),
+    javaPng: (props: IconProps) => (
+        <Image
+            src="/java_logo.jpg"
+            alt="Java Logo"
+            width="300"
+            height="300"
+            quality="100"
+            priority={true}
+            />
+    ),
+    javascriptPng: (props: IconProps) => (
+        <Image
+            src="/javascript_logo.jpg"
+            alt="JavaScript Logo"
+            width="150"
+            height="150"
+            quality="100"
+            priority={true}
+            />
+    ),
+    pythonPng: (props: IconProps) => (
+        <Image
+            src="/python_logo.png"
+            alt="Python Logo"
+            width="150"
+            height="150"
+            quality="100"
+            priority={true}
+            />
+    ),
+    rustPng: (props: IconProps) => (
+        <Image
+            src="/rust_logo.png"
+            alt="Rust Logo"
+            width="150"
+            height="150"
+            quality="100"
+            priority={true}
+            />
+    ),
+    typescriptPng: (props: IconProps) => (
+        <Image
+            src="/typescript_logo.png"
+            alt="TypeScript Logo"
+            width="150"
+            height="150"
+            quality="100"
+            priority={true}
+            />
+    ),
 }

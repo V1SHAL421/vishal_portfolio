@@ -22,6 +22,10 @@ module.exports = {
       },
     },
     extend: {
+      animation: {
+        scroll:
+        "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      },
       fontFamily: {
         custom: ["Lora", "sans-serif"],
       },
@@ -77,6 +81,11 @@ module.exports = {
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
+        },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
         },
         aurora: {
           from: {
