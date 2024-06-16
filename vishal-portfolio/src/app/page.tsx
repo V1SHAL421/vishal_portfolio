@@ -98,12 +98,12 @@ export default function Home() {
               />
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white text-center">LinkedIn</h5>
         </a>
-        <a href="https://mail.google.com/" className="block w-[500px] p-6 mt-20 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <a href="https://mail.google.com/" className="block w-[500px] p-6 mt-24 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <Image
               src={gmail}
               alt="Gmail Logo"
-              width="160"
-              height="160"
+              width="140"
+              height="140"
               className="flex flex-col justify-center ml-32 pl-4"
               />
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white text-center">vishalmkumar3@gmail.com</h5>
