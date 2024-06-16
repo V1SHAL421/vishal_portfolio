@@ -88,23 +88,23 @@ export default function Home() {
         <TypewriterEffect words={name} className="mt-20"/>
 
         <div className="flex flex-row justify-between items-center mt-20">
-        <a href="https://www.linkedin.com/in/vishal-kumar-6b5694269/" className="block w-[200px] p-6 mt-20 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <a href="https://www.linkedin.com/in/vishal-kumar-6b5694269/" className="flex flex-col items-center block w-[500px] h-[200px] p-6 mt-20 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <Image
               src={linkedIn}
               alt="Linked In Logo"
               width="100"
               height="100"
-              className="flex flex-col justify-center ml-4 pl-4"
+              className="flex flex-col justify-center"
               />
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white text-center">LinkedIn</h5>
         </a>
-        <a href="https://mail.google.com/" className="block w-[500px] p-6 mt-24 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <a href="https://mail.google.com/" className="flex flex-col items-center block w-[500px] h-[200px] pt-12 mt-20 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <Image
               src={gmail}
               alt="Gmail Logo"
               width="140"
               height="140"
-              className="flex flex-col justify-center ml-32 pl-4"
+              className="flex flex-col justify-center"
               />
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white text-center">vishalmkumar3@gmail.com</h5>
             
