@@ -251,37 +251,30 @@ export default function Page() {
     return (
     <>
     <TypewriterEffect words={words} className="mt-20 mb-20"/>
+    <h1 className="flex flex-col items-center font-sans text-2xl font-extrabold">Programming languages</h1>
     <LampContainer>
-        <>
-        <h1>Programming languages</h1>
         <div className="h-[40rem] flex items-center justify-center w-full">
             <CardStack items={languages} />
         </div>
-        </>
+
     </LampContainer>
+    <h1 className="flex flex-col items-center font-sans text-2xl font-extrabold">Cloud technologies</h1>
     <LampContainer>
-        <>
-        <h1>Cloud technologies</h1>
         <div className="h-[40rem] flex items-center justify-center w-full">
             <CardStack items={cloudtech} />
         </div>
-        </>
     </LampContainer>
+    <h1 className="flex flex-col items-center font-sans text-2xl font-extrabold">DevOps</h1>
     <LampContainer>
-        <>
-        <h1>DevOps</h1>
         <div className="h-[40rem] flex items-center justify-center w-full">
             <CardStack items={devops} />
         </div>
-        </>
     </LampContainer>
+    <h1 className="flex flex-col items-center font-sans text-2xl font-extrabold">Artificial Intelligence</h1>
     <LampContainer>
-        <>
-        <h1>Artificial Intelligence</h1>
         <div className="h-[40rem] flex items-center justify-center w-full">
             <CardStack items={ai} />
         </div>
-        </>
     </LampContainer>
     </>
     )
