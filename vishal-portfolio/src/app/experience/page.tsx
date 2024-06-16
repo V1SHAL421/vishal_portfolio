@@ -58,7 +58,7 @@ const items = [
   },
   {
     title: "Project Intern",
-    description: <div className="overflow-scroll"><p>Involved in an artificial intelligence project that plans to improve educational services where the attention profiles of students are monitored and shared with parents through their progress reports. This is set to be done through the use of AI to track the eyes of the student and their direction of vision onto the screen." </p></div>,
+    description: <p>Involved in an artificial intelligence project that plans to improve educational services where the attention profiles of students are monitored and shared with parents through their progress reports. This is set to be done through the use of AI to track the eyes of the student and their direction of vision onto the screen. </p>,
     header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.nxtuitionsJpg className="justify-center"/></div>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
