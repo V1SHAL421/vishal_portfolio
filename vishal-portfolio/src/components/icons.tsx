@@ -162,8 +162,8 @@ export const Icons = {
         <Image
             src="/python_logo.png"
             alt="Python Logo"
-            width="150"
-            height="150"
+            width="120"
+            height="120"
             quality="100"
             priority={true}
             />
@@ -184,6 +184,116 @@ export const Icons = {
             alt="TypeScript Logo"
             width="150"
             height="150"
+            quality="100"
+            priority={true}
+            />
+    ),
+    azureJpg: (props: IconProps) => (
+        <Image
+            src="/azure_logo.jpg"
+            alt="Microsoft Azure Logo"
+            width="75"
+            height="75"
+            quality="100"
+            priority={true}
+            />
+    ),
+    awsPng: (props: IconProps) => (
+        <Image
+            src="/aws_logo.png"
+            alt="AWS Logo"
+            width="250"
+            height="250"
+            quality="100"
+            priority={true}
+            />
+    ),
+    gitPng: (props: IconProps) => (
+        <Image
+            src="/git_logo.png"
+            alt="Git Logo"
+            width="300"
+            height="300"
+            quality="100"
+            priority={true}
+            />
+    ),
+    redisPng: (props: IconProps) => (
+        <Image
+            src="/redis_logo.png"
+            alt="Redis Logo"
+            width="700"
+            height="700"
+            quality="100"
+            priority={true}
+            />
+    ),
+    dockerPng: (props: IconProps) => (
+        <Image
+            src="/docker_logo.jpg"
+            alt="Docker Logo"
+            width="250"
+            height="250"
+            quality="100"
+            priority={true}
+            />
+    ),
+    kubernetesPng: (props: IconProps) => (
+        <Image
+            src="/kubernetes_logo.png"
+            alt="Kubernetes Logo"
+            width="250"
+            height="250"
+            quality="100"
+            priority={true}
+            />
+    ),
+    githubActionsPng: (props: IconProps) => (
+        <Image
+            src="/github_actions.png"
+            alt="Github Actions Logo"
+            width="250"
+            height="250"
+            quality="100"
+            priority={true}
+            />
+    ),
+    terraformPng: (props: IconProps) => (
+        <Image
+            src="/terraform_logo.png"
+            alt="Terraform Logo"
+            width="400"
+            height="600"
+            quality="100"
+            priority={true}
+            />
+    ),
+    slackPng: (props: IconProps) => (
+        <Image
+            src="/slack_logo.png"
+            alt="Slack Logo"
+            width="250"
+            height="250"
+            quality="100"
+            priority={true}
+            />
+    ),
+    jiraPng: (props: IconProps) => (
+        <Image
+            src="/jira_logo.png"
+            alt="Jira Logo"
+            width="200"
+            height="200"
+            quality="100"
+            priority={true}
+            />
+    ),
+    prometheusPng: (props: IconProps) => (
+        <Image
+            src="/prometheus.png"
+            alt="Prometheus Logo"
+            width="250"
+            height="250"
             quality="100"
             priority={true}
             />

@@ -26,13 +26,13 @@ const words = [
     },
 ]
 
-const cards = [
+const languages = [
     {
       id: 0,
       name: "Golang",
       designation: "Chi, Echo",
       content: (
-        <Icons.golangPng className="flex flex-col justify-center items-center"/>
+        <Icons.golangPng />
       ),
     },
     {
@@ -85,6 +85,100 @@ const cards = [
     },
   ];
 
+const cloudtech = [
+    {
+      id: 0,
+      name: "AWS",
+      designation: "EC2, DynamoDB, Amplify, S3, Cognito, IAM",
+      content: (
+        <Icons.awsPng />
+      ),
+    },
+    {
+      id: 1,
+      name: "Microsoft Azure",
+      designation: "Azure Web PubSub, Azure Service Bus, Azure Functions, Azure Active Directory, Azure Key Vault, Azure Logic App, Azure Monitor",
+      content: (
+        <Icons.azureJpg />
+      ),
+    },
+];
+
+const devops = [
+    {
+      id: 0,
+      name: "Git",
+      designation: "VCS used for tracking source code changes during the development process",
+      content: (
+        <Icons.gitPng />
+      ),
+    },
+    {
+        id: 1,
+        name: "Github Actions",
+        designation: "CI/CD platform to automate your build, test and deployment pipeline.",
+        content: (
+          <Icons.githubActionsPng />
+        ),
+    },
+    {
+        id: 2,
+        name: "Terraform",
+        designation: "IaC (Infrastructure as Code) that provisions and manages cloud infrastructure through tf files.",
+        content: (
+          <Icons.terraformPng />
+        ),
+    },
+    {
+        id: 3,
+        name: "Slack",
+        designation: "Collaboration tool that can integrate with other DevOps tools.",
+        content: (
+          <Icons.slackPng />
+        ),
+    },
+    {
+        id: 4,
+        name: "Jira",
+        designation: "Project management tool for tracking issues and bugs",
+        content: (
+          <Icons.jiraPng />
+        ),
+    },
+    {
+        id: 5,
+        name: "Prometheus",
+        designation: "Provides metrics through monitoring functionality.",
+        content: (
+          <Icons.prometheusPng />
+        ),
+    },
+    {
+        id: 6,
+        name: "Redis",
+        designation: "To be used as a database and/or a cache.",
+        content: (
+          <Icons.redisPng />
+        ),
+      },
+      {
+          id: 7,
+          name: "Docker",
+          designation: "PaaS that packages software into containers to be run on any machine with Docker.",
+          content: (
+            <Icons.dockerPng />
+          ),
+      },
+      {
+          id: 8,
+          name: "Kubernetes",
+          designation: "Container Orchestration - automates the management and deployment",
+          content: (
+            <Icons.kubernetesPng />
+          ),
+      },
+]
+
 export default function Page() {
     return (
     <>
@@ -93,15 +187,25 @@ export default function Page() {
         <>
         <h1>Programming languages</h1>
         <div className="h-[40rem] flex items-center justify-center w-full">
-            <CardStack items={cards} />
+            <CardStack items={languages} />
         </div>
         </>
     </LampContainer>
     <LampContainer>
-    <h1>Cloud Technologies</h1>
+        <>
+        <h1>Cloud technologies</h1>
+        <div className="h-[40rem] flex items-center justify-center w-full">
+            <CardStack items={cloudtech} />
+        </div>
+        </>
     </LampContainer>
     <LampContainer>
-    <h1>DevOps</h1>
+    <>
+        <h1>DevOps</h1>
+        <div className="h-[40rem] flex items-center justify-center w-full">
+            <CardStack items={devops} />
+        </div>
+        </>
     </LampContainer>
     <LampContainer>
     <h1>Artificial Intelligence</h1>
