@@ -45,9 +45,9 @@ export default function Home() {
   return (
     <WavyBackground className="max-w-4xl mx-auto pb-40">
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <TypewriterEffect words={words} className="mb-20 mt-10"/>
+    <TypewriterEffect words={words} className="mb-20 mt-40"/>
       <div className="z-10 w-full flex-col max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <TypewriterEffect words={words} className="mb-20"/>
+        
         <div className="flex flex-row items-center mt-20">
           <Image
             src={vishal}
