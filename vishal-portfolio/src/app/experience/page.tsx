@@ -32,17 +32,17 @@ const items = [
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Backend Developer Intern at FoodClub",
-    description: "Constructing endpoints for the backend of an app focused on developing culinary skills, creating food-related videos, and connecting with other food lovers. This involves creating databases on AWS and performing CRUD functions on AWS databases, as well as working with PostgreSQL, Redis databases and socket servers.",
-    header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.foodClubPng className="justify-center"/></div>,
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-  },
-  {
     title: "App Developer Intern at 10zyme",
     description:
-      "Constructing an app to help HPV patients through access to diagnostics and professional consultants. Primarily focused on constructing the frontend.",
-      header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.tenZymePng className="justify-center"/></div>,
+      "Constructing an app to help HPV patients through access to diagnostics and professional consultants.",
+    header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.tenZymePng className="justify-center"/></div>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+  },
+  {
+    title: "Backend Developer Intern at FoodClub",
+    description: "Constructing endpoints for the backend of a mobile app. This involves creating databases on AWS, performing CRUD functions as well as working with PostgreSQL, Redis databases and socket servers.",
+    header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.foodClubPng className="justify-center"/></div>,
+    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "AI-Language Model Trainer",
