@@ -2,14 +2,13 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { Icons } from "@/components/icons";
 import vishal from "@/../public/vishal.png"
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { WavyBackground } from "@/components/ui/wavy-background";
-import Link from "next/link";
 import linkedIn from "../../public/linkedin_icon.png"
 import gmail from "../../public/gmail.png"
+import github from "../../public/github.jpg"
 
 export default function Home() {
   const router = useRouter()
@@ -45,7 +44,7 @@ export default function Home() {
   return (
     <WavyBackground className="max-w-4xl mx-auto pb-40">
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <TypewriterEffect words={words} className="mb-20 mt-40"/>
+    <TypewriterEffect words={words} className="mt-40"/>
       <div className="z-10 w-full flex-col max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         
         <div className="flex flex-row items-center mt-20">
@@ -87,8 +86,8 @@ export default function Home() {
         </div>
         <TypewriterEffect words={name} className="mt-20"/>
 
-        <div className="flex flex-row justify-between items-center mt-20">
-        <a href="https://www.linkedin.com/in/vishal-kumar-6b5694269/" className="flex flex-col items-center block w-[500px] h-[200px] p-6 mt-20 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div className="flex flex-row justify-between items-center mt-4">
+        <a href="https://www.linkedin.com/in/vishal-kumar-6b5694269/" className="flex flex-col items-center block w-[500px] h-[200px] p-6 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <Image
               src={linkedIn}
               alt="Linked In Logo"
@@ -98,7 +97,7 @@ export default function Home() {
               />
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white text-center">LinkedIn</h5>
         </a>
-        <a href="https://mail.google.com/" className="flex flex-col items-center block w-[500px] h-[200px] pt-12 mt-20 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <a href="https://mail.google.com/" className="flex flex-col items-center block w-[500px] h-[200px] pt-12 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <Image
               src={gmail}
               alt="Gmail Logo"
@@ -109,7 +108,17 @@ export default function Home() {
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white text-center">vishalmkumar3@gmail.com</h5>
             
         </a>
-
+        <a href="https://github.com/V1SHAL421" className="flex flex-col items-center block w-[500px] h-[200px] pt-12 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <Image
+              src={github}
+              alt="Github Logo"
+              width="110"
+              height="110"
+              className="flex flex-col justify-center"
+              />
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white text-center">Github</h5>
+            
+        </a>
         </div>
 
       </div>

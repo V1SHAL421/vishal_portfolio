@@ -418,5 +418,15 @@ export const Icons = {
             quality="100"
             priority={true}
         />
+    ),
+    vercelPng: (props: IconProps) => (
+        <Image
+            src="/vercel_logo.jpg"
+            alt="Vercel Logo"
+            width="300"
+            height="300"
+            quality="100"
+            priority={true}
+        />
     )
 }

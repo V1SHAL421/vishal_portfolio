@@ -102,6 +102,14 @@ const cloudtech = [
         <Icons.azureJpg />
       ),
     },
+    {
+      id: 2,
+      name: "Vercel",
+      designation: "Software Deployment Platform as a Service",
+      content: (
+        <Icons.vercelPng />
+      ),
+    },
 ];
 
 const devops = [
