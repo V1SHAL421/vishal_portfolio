@@ -192,8 +192,8 @@ export const Icons = {
         <Image
             src="/azure_logo.jpg"
             alt="Microsoft Azure Logo"
-            width="75"
-            height="75"
+            width="50"
+            height="50"
             quality="100"
             priority={true}
             />
@@ -242,8 +242,8 @@ export const Icons = {
         <Image
             src="/kubernetes_logo.png"
             alt="Kubernetes Logo"
-            width="250"
-            height="250"
+            width="200"
+            height="200"
             quality="100"
             priority={true}
             />
@@ -282,8 +282,8 @@ export const Icons = {
         <Image
             src="/jira_logo.png"
             alt="Jira Logo"
-            width="200"
-            height="200"
+            width="150"
+            height="150"
             quality="100"
             priority={true}
             />
