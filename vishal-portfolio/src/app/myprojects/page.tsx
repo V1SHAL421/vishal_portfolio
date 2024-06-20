@@ -21,7 +21,7 @@ const Skeleton = () => (
 const items = [
   {
     title: "IBM Project: Byte Battles",
-    description: "Focus on online gamification as a means of evolution of the online platform through implementing a gamification feature - a web application. Use LLMs model to evaluate the performance of online gamification for the platform",
+    description: "Focused on online gamification as a means of evolution of the online platform through implementing a gamification feature - a web application. Use LLMs model to evaluate the performance of online gamification for the platform",
     header: <div className="flex flex-col items-center justify-center w-full mt-16"><Icons.ibmLogoPng className="justify-center"/></div>,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
@@ -35,7 +35,7 @@ const items = [
   {
     title: "Handwritten-digits-classification",
     description:
-      "The simple MNIST classification model is built using PyTorch and visualized with Matplotlib. It is designed to recognize handwritten digits from the MNIST dataset.",
+      "This simple MNIST classification model is built using PyTorch and visualized with Matplotlib. It is designed to recognize handwritten digits from the MNIST dataset.",
       header: <div className="flex flex-col items-center justify-center w-full mt-4"><Icons.mnistClassificationPng className="justify-center"/></div>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },

@@ -21,32 +21,32 @@ const Skeleton = () => (
 const items = [
   {
     title: "Software Engineer Intern at Amadeus",
-    description: "Create a passenger-facing screen to connect to an agent-facing screen through Microsoft Azure architecture.",
+    description: "Creating a passenger-facing screen to connect to an agent-facing screen through Microsoft Azure infrastructure.",
     header: <div className="flex flex-col items-center justify-center w-full mt-16"><Icons.amadeusLogoPng className="justify-center"/></div>,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Software Engineer at Denr",
-    description: "Construct the main website and the prototype for the mobile application",
+    description: "Constructed the main website and the prototype for the mobile application",
     header: <div className="flex flex-col items-center justify-center w-full mt-16"><Icons.denrJpg className="justify-center"/></div>,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "App Developer Intern at 10zyme",
     description:
-      "Constructing an app to help HPV patients through access to diagnostics and professional consultants.",
+      "Constructed an app to help HPV patients through access to diagnostics and professional consultants.",
     header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.tenZymePng className="justify-center"/></div>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Backend Developer Intern at FoodClub",
-    description: "Constructing endpoints for the backend of a mobile app. This involves creating databases on AWS, performing CRUD functions as well as working with PostgreSQL, Redis databases and socket servers.",
+    description: "Constructed endpoints for the backend of a mobile app. This involved creating databases on AWS, performing CRUD functions as well as working with PostgreSQL, Redis databases and socket servers.",
     header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.foodClubPng className="justify-center"/></div>,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "AI-Language Model Trainer",
-    description: "Adapting poorly written responses to AI prompts to ensure human influence in responses (preventing bias) -reinforcement learning human feedback",
+    description: "Adapted poorly written responses to AI prompts to ensure human influence in responses (preventing bias) -reinforcement learning human feedback",
     header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.appenJpg className="justify-center"/></div>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },

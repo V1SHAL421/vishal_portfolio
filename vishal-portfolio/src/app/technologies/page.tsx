@@ -97,7 +97,7 @@ const cloudtech = [
     {
       id: 1,
       name: "Microsoft Azure",
-      designation: "Azure Web PubSub, Azure Service Bus, Azure Functions, Azure Active Directory, Azure Key Vault, Azure Logic App, Azure Monitor",
+      designation: "Azure Web PubSub, Azure Service Bus, Azure Functions, Azure Active Directory, Azure Key Vault, Azure Monitor",
       content: (
         <Icons.azureJpg />
       ),
