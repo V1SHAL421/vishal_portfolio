@@ -47,6 +47,7 @@ export default function Home() {
       {/* <TypewriterEffect words={words} className="mt-4 lg:mt-10 mb-10" /> Reduced initial margin-top on mobile */}
       <div className="sm:mt-60 md:mt-60 lg:mt-10"/>
       <div className="sm:mt-60 md:mt-60 lg:mt-10"/>
+      <div className="sm:mt-60"/>
       <TypewriterEffect words={words} className="mt-4 lg:mt-10 mb-10" />
       <div className="flex flex-col lg:flex-row flex-wrap items-center justify-between max-w-5xl w-full">
           <Image
