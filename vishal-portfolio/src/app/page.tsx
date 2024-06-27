@@ -45,8 +45,8 @@ export default function Home() {
     <WavyBackground className="max-w-4xl mx-auto">
       <main className="flex flex-col items-center justify-between px-4 py-8 lg:p-24 w-full"> {/* Reduced vertical padding on mobile */}
       {/* <TypewriterEffect words={words} className="mt-4 lg:mt-10 mb-10" /> Reduced initial margin-top on mobile */}
-      <div className="sm:mt-40 md:mt-60 lg:mt-10"/>
-      <div className="sm:mt-40 md:mt-60 lg:mt-10"/>
+      <div className="sm:mt-60 md:mt-60 lg:mt-10"/>
+      <div className="sm:mt-60 md:mt-60 lg:mt-10"/>
       <TypewriterEffect words={words} className="mt-4 lg:mt-10 mb-10" />
       <div className="flex flex-col lg:flex-row flex-wrap items-center justify-between max-w-5xl w-full">
           <Image
