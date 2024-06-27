@@ -37,17 +37,18 @@ export default function Home() {
     },
     {
       text: "Kumar",
-      className: "text-white"
+      className: "text-purple-700"
     }
   ]
 
   return (
-    <WavyBackground className="max-w-4xl mx-auto pb-40">
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <TypewriterEffect words={words} className="mt-40"/>
-      <div className="z-10 w-full flex-col max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        
-        <div className="flex flex-row items-center mt-20">
+    <WavyBackground className="max-w-4xl mx-auto">
+      <main className="flex flex-col items-center justify-between px-4 py-8 lg:p-24 w-full"> {/* Reduced vertical padding on mobile */}
+      {/* <TypewriterEffect words={words} className="mt-4 lg:mt-10 mb-10" /> Reduced initial margin-top on mobile */}
+      <div className="sm:mt-40 md:mt-60 lg:mt-10"/>
+      <div className="sm:mt-40 md:mt-60 lg:mt-10"/>
+      <TypewriterEffect words={words} className="mt-4 lg:mt-10 mb-10" />
+      <div className="flex flex-col lg:flex-row flex-wrap items-center justify-between max-w-5xl w-full">
           <Image
             src={vishal}
             alt="Vishal"
@@ -55,74 +56,66 @@ export default function Home() {
             height={400}
             quality={100}
             placeholder="blur"
-            className="w-auto max-w-xs rounded-full mx-auto"
+            className="rounded-full mx-auto my-4 lg:my-0 lg:mx-0"
           />
-          <div className="flex flex-col items-center px-4 py-4 ml-32">
-          <button
-            type="button"
-            onClick={() => router.push('/experience')}
-            className="block w-[200px] h-[50px] rounded mt-4 mb-4 bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold"
-          >
-            Experience
-          </button>
-        
-        
-          <button
-            type="button"
-            onClick={() => router.push('/myprojects')}
-            className="block w-[200px] h-[50px] rounded mt-4 mb-4 bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold"
-          >
-            Projects
-          </button>
-
-          <button
-            type="button"
-            onClick={() => router.push('/technologies')}
-            className="block w-[200px] h-[50px] rounded mt-4 mb-4 bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold"
-          >
-            Technologies
-          </button>
+          <div className="flex flex-col items-center px-4 py-4 mt-4 lg:ml-32"> {/* Adjusted margins for responsive layout */}
+            <button
+              type="button"
+              onClick={() => router.push('/experience')}
+              className="w-full lg:w-[200px] h-[50px] rounded bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold mb-4" // Responsive width
+            >
+              Experience
+            </button>
+            <button
+              type="button"
+              onClick={() => router.push('/myprojects')}
+              className="w-full lg:w-[200px] h-[50px] rounded bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold mb-4" // Responsive width
+            >
+              Projects
+            </button>
+            <button
+              type="button"
+              onClick={() => router.push('/technologies')}
+              className="w-full lg:w-[200px] h-[50px] rounded bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold mb-4" // Responsive width
+            >
+              Technologies
+            </button>
+          </div>
+          <div className="flex flex-col lg:flex-row justify-between items-center w-full mt-4"> {/* Changed to column layout and set width to full */}
+            {/* Social links adjusted to take full width on smaller screens and specific width on larger screens */}
+            <a href="https://www.linkedin.com/in/vishal-kumar-6b5694269/" className="flex flex-col items-center w-full lg:w-[500px] h-[200px] p-6 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 mb-4">
+              <Image
+                src={linkedIn}
+                alt="Linked In Logo"
+                width="100"
+                height="100"
+                className="justify-center"
+              />
+              <h5 className="text-2xl font-bold tracking-tight text-white dark:text-white text-center">LinkedIn</h5>
+            </a>
+            <a href="https://mail.google.com/" className="flex flex-col items-center w-full lg:w-[500px] h-[200px] pt-12 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 mb-4">
+              <Image
+                src={gmail}
+                alt="Gmail Logo"
+                width="140"
+                height="140"
+                className="justify-center"
+              />
+              <h5 className="text-2xl font-bold tracking-tight text-white dark:text-white text-center">vishalmkumar3@gmail.com</h5>
+            </a>
+            <a href="https://github.com/V1SHAL421" className="flex flex-col items-center w-full lg:w-[500px] h-[200px] pt-12 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <Image
+                src={github}
+                alt="Github Logo"
+                width="110"
+                height="110"
+                className="justify-center"
+              />
+              <h5 className="text-2xl font-bold tracking-tight text-white dark:text-white text-center">Github</h5>
+            </a>
           </div>
         </div>
-        <TypewriterEffect words={name} className="mt-20"/>
-
-        <div className="flex flex-row justify-between items-center mt-4">
-        <a href="https://www.linkedin.com/in/vishal-kumar-6b5694269/" className="flex flex-col items-center block w-[500px] h-[200px] p-6 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <Image
-              src={linkedIn}
-              alt="Linked In Logo"
-              width="100"
-              height="100"
-              className="flex flex-col justify-center"
-              />
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white text-center">LinkedIn</h5>
-        </a>
-        <a href="https://mail.google.com/" className="flex flex-col items-center block w-[500px] h-[200px] pt-12 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <Image
-              src={gmail}
-              alt="Gmail Logo"
-              width="140"
-              height="140"
-              className="flex flex-col justify-center"
-              />
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white text-center">vishalmkumar3@gmail.com</h5>
-            
-        </a>
-        <a href="https://github.com/V1SHAL421" className="flex flex-col items-center block w-[500px] h-[200px] pt-12 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <Image
-              src={github}
-              alt="Github Logo"
-              width="110"
-              height="110"
-              className="flex flex-col justify-center"
-              />
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white text-center">Github</h5>
-            
-        </a>
-        </div>
-
-      </div>
-    </main>
+      </main>
     </WavyBackground>
   );
 }
