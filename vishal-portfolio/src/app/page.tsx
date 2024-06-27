@@ -43,11 +43,7 @@ export default function Home() {
 
   return (
     <WavyBackground className="max-w-4xl mx-auto">
-      <main className="flex flex-col items-center justify-between px-4 py-8 lg:p-24 w-full h-screen"> {/* Reduced vertical padding on mobile */}
-      {/* <TypewriterEffect words={words} className="mt-4 lg:mt-10 mb-10" /> Reduced initial margin-top on mobile */}
-      {/* <div className="md:mt-10 lg:mt-2"/>
-      <div className="md:mt-10 lg:mt-2"/> */}
-      {/* <div className="sm:mt-60"/> */}
+      <main className="flex flex-col items-center justify-between px-4 py-8 lg:p-24 w-full h-screen">
       <TypewriterEffect words={words} className="mt-4 sm:mt-40 md:mt-10 lg:mt-10 mb-10" />
       <div className="flex flex-col lg:flex-row flex-wrap items-center justify-between max-w-5xl w-full">
           <Image
@@ -59,7 +55,7 @@ export default function Home() {
             placeholder="blur"
             className="rounded-full mx-auto my-4 lg:my-0 lg:mx-0"
           />
-          <div className="flex flex-col items-center px-4 py-4 mt-4 lg:ml-32"> {/* Adjusted margins for responsive layout */}
+          <div className="flex flex-col items-center px-4 py-4 mt-4 lg:ml-32">
             <button
               type="button"
               onClick={() => router.push('/experience')}
@@ -82,8 +78,7 @@ export default function Home() {
               Technologies
             </button>
           </div>
-          <div className="flex flex-col lg:flex-row justify-between items-center w-full mt-4"> {/* Changed to column layout and set width to full */}
-            {/* Social links adjusted to take full width on smaller screens and specific width on larger screens */}
+          <div className="flex flex-col lg:flex-row justify-between items-center w-full mt-4"> 
             <a href="https://www.linkedin.com/in/vishal-kumar-6b5694269/" className="flex flex-col items-center w-full lg:w-[500px] h-[200px] p-6 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 mb-4">
               <Image
                 src={linkedIn}
