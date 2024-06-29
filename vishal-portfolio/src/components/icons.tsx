@@ -192,8 +192,8 @@ export const Icons = {
         <Image
             src="/azure_logo.jpg"
             alt="Microsoft Azure Logo"
-            width="30"
-            height="30"
+            width="100"
+            height="100"
             quality="100"
             priority={true}
             />

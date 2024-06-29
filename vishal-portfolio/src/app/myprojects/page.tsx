@@ -46,7 +46,7 @@ const items = [
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Student Behaiour Analysis",
+    title: "Student Behaviour Analysis",
     description: "A project where students’ attention profiles are monitored. Done through Deep Learning model to track the eyes of the student.",
     header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.nxtuitionsJpg className="justify-center"/></div>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
