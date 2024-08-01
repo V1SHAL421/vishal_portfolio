@@ -383,8 +383,8 @@ export const Icons = {
         <Image
             src="/openai_logo.jpg"
             alt="LLM"
-            width="150"
-            height="150"
+            width="120"
+            height="120"
             quality="100"
             priority={true}
         />
