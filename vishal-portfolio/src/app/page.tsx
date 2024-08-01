@@ -14,15 +14,11 @@ export default function Home() {
   const router = useRouter()
   const words = [
     {
-      text: "Welcome",
+      text: "Vishal",
       className: "text-white"
     },
     {
-      text: "to",
-      className: "text-white"
-    },
-    {
-      text: "my",
+      text: "Kumar:",
       className: "text-white"
     },
     {
