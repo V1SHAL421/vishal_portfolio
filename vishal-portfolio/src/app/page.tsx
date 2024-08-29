@@ -50,7 +50,15 @@ export default function Home() {
             placeholder="blur"
             className="rounded-full mx-auto my-4 lg:my-0 lg:mx-0"
           />
+          
           <div className="flex flex-col items-center px-4 py-4 mt-4 lg:ml-18">
+          <button
+              type="button"
+              onClick={() => router.push('/aboutme')}
+              className="w-full lg:w-[200px] h-[50px] rounded bg-blue-700 hover:bg-red-300 text-white py-2 px-4 font-bold mb-4" // Responsive width
+            >
+              About Me
+            </button>
             <button
               type="button"
               onClick={() => router.push('/experience')}

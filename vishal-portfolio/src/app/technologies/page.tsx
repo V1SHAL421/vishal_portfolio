@@ -3,6 +3,8 @@ import Link from "next/link";
 import { LampContainer } from "@/components/ui/lamp";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import { CardStack } from "@/components/ui/card-stack";
+
+
 const words = [
     {
         text: "Here",
@@ -239,7 +241,7 @@ const ai = [
     {
     id: 6,
     name: "Data Visualization",
-    designation: "Matplotlib",
+    designation: "Matplotlib, Seaborn",
     content: (
         <Icons.dataVisualizationPng />
     ),

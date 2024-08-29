@@ -122,8 +122,8 @@ export const Icons = {
         <Image
             src="/golang.png"
             alt="Golang Logo"
-            width="300"
-            height="300"
+            width="250"
+            height="250"
             quality="100"
             priority={true}
             />
@@ -132,8 +132,8 @@ export const Icons = {
         <Image
             src="/c++_logo.png"
             alt="C++ Logo"
-            width="150"
-            height="150"
+            width="120"
+            height="120"
             quality="100"
             priority={true}
             />
@@ -142,8 +142,8 @@ export const Icons = {
         <Image
             src="/java_logo.jpg"
             alt="Java Logo"
-            width="300"
-            height="300"
+            width="200"
+            height="200"
             quality="100"
             priority={true}
             />
@@ -152,8 +152,8 @@ export const Icons = {
         <Image
             src="/javascript_logo.jpg"
             alt="JavaScript Logo"
-            width="150"
-            height="150"
+            width="120"
+            height="120"
             quality="100"
             priority={true}
             />
@@ -162,8 +162,8 @@ export const Icons = {
         <Image
             src="/python_logo.png"
             alt="Python Logo"
-            width="120"
-            height="120"
+            width="100"
+            height="100"
             quality="100"
             priority={true}
             />
@@ -172,8 +172,8 @@ export const Icons = {
         <Image
             src="/rust_logo.png"
             alt="Rust Logo"
-            width="150"
-            height="150"
+            width="120"
+            height="120"
             quality="100"
             priority={true}
             />
@@ -182,8 +182,8 @@ export const Icons = {
         <Image
             src="/typescript_logo.png"
             alt="TypeScript Logo"
-            width="150"
-            height="150"
+            width="120"
+            height="120"
             quality="100"
             priority={true}
             />
@@ -202,8 +202,8 @@ export const Icons = {
         <Image
             src="/aws_logo.png"
             alt="AWS Logo"
-            width="250"
-            height="250"
+            width="200"
+            height="200"
             quality="100"
             priority={true}
             />
@@ -212,8 +212,8 @@ export const Icons = {
         <Image
             src="/git_logo.png"
             alt="Git Logo"
-            width="300"
-            height="300"
+            width="220"
+            height="220"
             quality="100"
             priority={true}
             />
@@ -232,8 +232,8 @@ export const Icons = {
         <Image
             src="/docker_logo.jpg"
             alt="Docker Logo"
-            width="250"
-            height="250"
+            width="170"
+            height="170"
             quality="100"
             priority={true}
             />
@@ -252,8 +252,8 @@ export const Icons = {
         <Image
             src="/github_actions.png"
             alt="Github Actions Logo"
-            width="250"
-            height="250"
+            width="200"
+            height="200"
             quality="100"
             priority={true}
             />
@@ -262,8 +262,8 @@ export const Icons = {
         <Image
             src="/terraform_logo.png"
             alt="Terraform Logo"
-            width="400"
-            height="600"
+            width="300"
+            height="500"
             quality="100"
             priority={true}
             />
@@ -272,8 +272,8 @@ export const Icons = {
         <Image
             src="/slack_logo.png"
             alt="Slack Logo"
-            width="250"
-            height="250"
+            width="200"
+            height="200"
             quality="100"
             priority={true}
             />
@@ -292,8 +292,8 @@ export const Icons = {
         <Image
             src="/prometheus.png"
             alt="Prometheus Logo"
-            width="250"
-            height="250"
+            width="200"
+            height="200"
             quality="100"
             priority={true}
             />
@@ -303,8 +303,8 @@ export const Icons = {
         <Image
             src="/data_visualization.jpeg"
             alt="Data Visualization"
-            width="250"
-            height="250"
+            width="200"
+            height="200"
             quality="100"
             priority={true}
             />
@@ -353,8 +353,8 @@ export const Icons = {
         <Image
             src="/neural_networks.jpg"
             alt="Neural Networks"
-            width="150"
-            height="150"
+            width="120"
+            height="120"
             quality="100"
             priority={true}
             />
@@ -363,8 +363,8 @@ export const Icons = {
         <Image
             src="/prompt_engineering.png"
             alt="Prompt Engineering"
-            width="250"
-            height="250"
+            width="200"
+            height="200"
             quality="100"
             priority={true}
             />
@@ -423,8 +423,8 @@ export const Icons = {
         <Image
             src="/vercel_logo.jpg"
             alt="Vercel Logo"
-            width="300"
-            height="300"
+            width="220"
+            height="220"
             quality="100"
             priority={true}
         />
