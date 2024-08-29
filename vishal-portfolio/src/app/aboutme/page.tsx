@@ -22,7 +22,7 @@ const words = [
                 baseHue={120}
                 className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
             >
-            <div className="flex flex-col flex-wrap items-center justify-center">
+            <div className="flex flex-col flex-wrap items-center justify-center text-white">
             
             <TypewriterEffect words={words} className="mt-20 mb-10"/>
             <p>I am an accomplished and innovative software engineer driven by
