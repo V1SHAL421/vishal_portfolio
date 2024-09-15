@@ -31,7 +31,7 @@ const words = [
             With experience across a range of companies from fintech startups
             to an internship with Amadeus and a collaboration on a project with the client IBM, equipping
             me with a diverse skill set and exposure to agile, dynamic, cross-functional and highly regulated environments.</p>
-            <p>My profiency spans from web and app development, image recognition, LLMs and neural networks
+            <p>My proficiency spans from web and app development, image recognition, LLMs and neural networks
             to data analysis, network security, software architecture, cloud technologies
             (AWS and Microsoft Azure) and project management. My favourite programming languages are
             Golang, Python and Java and I have thoroughly enjoyed working with tools such as Kubernetes and Terraform.</p>
