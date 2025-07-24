@@ -40,7 +40,7 @@ const languages = [
     {
       id: 1,
       name: "Python",
-      designation: "Django, Pytorch, Numpy, Matplotlib, Tensorflow, Pandas, Keras",
+      designation: "LangChain, Django, Pytorch, Numpy, Matplotlib, Tensorflow, Pandas, Keras",
       content: (
         <Icons.pythonPng />
       ),
@@ -209,7 +209,7 @@ const ai = [
     {
         id: 2,
         name: "LLMs",
-        designation: "Large Language Models (T5, BERT, Electra, Babbage, Ada)",
+        designation: "Large Language Models (T5, BERT, Electra, Babbage, Ada), Agentic AI with LangChain and Bedrock Agents",
         content: (
             <Icons.openaiPng />
         ),

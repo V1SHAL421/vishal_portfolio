@@ -8,6 +8,76 @@ import Image from "next/image";
 
 // The icons that can be used on the website
 export const Icons = {
+    amazonLogoPng: (props: IconProps) => (
+        <Image
+            src="/amazon_logo.png"
+            alt="Amazon Logo"
+            width="100"
+            height="70"
+            quality="100"
+            priority={true}
+        />
+    ),
+    loanPng: (props: IconProps) => (
+        <Image
+            src="/loan.png"
+            alt="Loan"
+            width="100"
+            height="70"
+            quality="100"
+            priority={true}
+        />
+    ),
+    nasaLogoPng: (props: IconProps) => (
+        <Image
+            src="/nasa_logo.png"
+            alt="NASA Logo"
+            width="100"
+            height="70"
+            quality="100"
+            priority={true}
+        />
+    ),
+    x86BootloaderPng: (props: IconProps) => (
+        <Image
+            src="/x86_bootloader.png"
+            alt="x86 Bootloader Logo"
+            width="100"
+            height="70"
+            quality="100"
+            priority={true}
+        />
+    ),
+    stockMarketLogoPng: (props: IconProps) => (
+        <Image
+            src="/stock_market.png"
+            alt="Stock Market Logo"
+            width="100"
+            height="70"
+            quality="100"
+            priority={true}
+        />
+    ),
+    mertonMovesLogoPng: (props: IconProps) => (
+        <Image
+            src="/merton_moves.png"
+            alt="Merton Moves Logo"
+            width="100"
+            height="70"
+            quality="100"
+            priority={true}
+        />
+    ),
+    cooleatLogoPng: (props: IconProps) => (
+        <Image
+            src="/cooleat_logo.png"
+            alt="CoolEat Logo"
+            width="100"
+            height="70"
+            quality="100"
+            priority={true}
+        />
+    ),
     amadeusLogoPng: (props: IconProps) => (
         <Image
             src="/amadeus_logo.png"

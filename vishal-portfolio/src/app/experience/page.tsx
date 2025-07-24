@@ -20,16 +20,28 @@ const Skeleton = () => (
 
 const items = [
   {
+    title: "AI Automation Team at Amazon",
+    description: "Implementing a Text-to-SQL agentic workflow for 100+ million rows of financial data to support reporting and analytics.",
+    header: <div className="flex flex-col items-center justify-center w-full mt-16"><Icons.amazonLogoPng className="justify-center"/></div>,
+    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+  },
+  {
+    title: "Co-Founder at CoolEat",
+    description: "Managed a team of 6 to construct the MVP of a web application.",
+    header: <div className="flex flex-col items-center justify-center w-full mt-16"><Icons.cooleatLogoPng className="justify-center"/></div>,
+    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+  },
+  {
+    title: "Co-Founder at Denr",
+    description: "Managed a team of 7 to construct the MVP of a mobile application.",
+    header: <div className="flex flex-col items-center justify-center w-full mt-16"><Icons.denrJpg className="justify-center"/></div>,
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+  },
+  {
     title: "Software Engineer Intern at Amadeus",
     description: "Creating a passenger-facing screen to connect to an agent-facing screen through Microsoft Azure infrastructure.",
     header: <div className="flex flex-col items-center justify-center w-full mt-16"><Icons.amadeusLogoPng className="justify-center"/></div>,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "Software Engineer at Denr",
-    description: "Constructed the main website and the prototype for the mobile application",
-    header: <div className="flex flex-col items-center justify-center w-full mt-16"><Icons.denrJpg className="justify-center"/></div>,
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "App Developer Intern at 10zyme",
@@ -40,25 +52,13 @@ const items = [
   },
   {
     title: "Backend Developer Intern at FoodClub",
-    description: "Constructed endpoints for the backend of a mobile app. This involved creating databases on AWS, performing CRUD functions as well as working with PostgreSQL, Redis databases and socket servers.",
+    description: "Constructed endpoints for the backend of a mobile app.",
     header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.foodClubPng className="justify-center"/></div>,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "AI-Language Model Trainer",
-    description: "Adapted poorly written responses to AI prompts to ensure human influence in responses (preventing bias) -reinforcement learning human feedback",
-    header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.appenJpg className="justify-center"/></div>,
-    icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "Trainee at Devoir Software Solutions Pvt Ltd",
-    description: "Explored the theoretical underpinnings of ERP systems.",
-    header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.devoirJpg className="justify-center"/></div>,
-    icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-  },
-  {
     title: "Project Intern",
-    description: <p>Involved in an artificial intelligence project that plans to improve educational services where the attention profiles of students are monitored and shared with parents through their progress reports. This is set to be done through the use of AI to track the eyes of the student and their direction of vision onto the screen. </p>,
+    description: <p>Involved in an artificial intelligence project that plans to improve educational services where the attention profiles of students are monitored and shared with parents through their progress reports. </p>,
     header: <div className="flex flex-col items-center justify-center w-full mt-10"><Icons.nxtuitionsJpg className="justify-center"/></div>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
