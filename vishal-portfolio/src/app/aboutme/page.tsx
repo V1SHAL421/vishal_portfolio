@@ -25,7 +25,7 @@ const words = [
             <div className="flex flex-col flex-wrap items-center justify-center text-white">
             
             <TypewriterEffect words={words} className="mt-20 mb-10"/>
-            <p>I am an accomplished and innovative software engineer driven by
+            <p>I am currently working in the AI Automation team at Amazon driven by
             a deep passion for driving positive change through crafting efficient, scalable
             and sustainable solutions that address real-world problems.
             With experience across a range of companies from fintech startups
