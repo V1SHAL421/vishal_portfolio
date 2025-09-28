@@ -239,7 +239,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
 );
 
 // ======== MAIN COMPONENT ========
-  const initials = useMemo(() => CONFIG.name.split(" ").map((n) => n[0]).join("").slice(0, 2), []);
+  const initials = useMemo(() => CONFIG.name.split(" ").map((n) => n[0]).join("").slice(0, 2), [CONFIG.name]);
 
   return (
     <div className="min-h-screen bg-background text-foreground" id="top">
