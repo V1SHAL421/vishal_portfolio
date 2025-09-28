@@ -22,7 +22,7 @@ const CONFIG = {
   links: {
     github: "https://github.com/V1SHAL421",
     linkedin: "https://www.linkedin.com/in/vishal-kumar-6b5694269/",
-    resume: "/Vishal_Kumar_Resume.pdf",
+    resume: "/Vishal-Kumar-CV.pdf",
   },
   highlights: [
     { label: "Amazon", value: "AI Automation Team for Supply Chain • Agentic AI Text-to-SQL" },
