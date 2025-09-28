@@ -213,11 +213,11 @@ const CONFIG = {
 };
 
 // ======== UI HELPERS ========
-const Container = ({ children }) => (
+const Container = ({ children }: { children: React.ReactNode }) => (
   <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">{children}</div>
 );
 
-const Section = ({ id, title, subtitle, children }) => (
+const Section = ({ id, title, subtitle, children }: { id: string; title: string; subtitle?: string; children: React.ReactNode }) => (
   <section id={id} className="scroll-mt-24 py-12 sm:py-16">
     <Container>
       <div className="mb-8 flex items-end justify-between gap-4">
@@ -234,7 +234,7 @@ const Section = ({ id, title, subtitle, children }) => (
   </section>
 );
 
-const Pill = ({ children }) => (
+const Pill = ({ children }: { children: React.ReactNode }) => (
   <Badge className="rounded-full px-3 py-1 text-[0.72rem]">{children}</Badge>
 );
 
@@ -293,7 +293,7 @@ const Pill = ({ children }) => (
                 {CONFIG.tagline}
               </motion.h1>
               <p className="mt-4 text-muted-foreground">
-                Currently working in Amazon's AI Automation Team for Supply Chain.
+                Currently working in the Amazon AI Automation Team for Supply Chain.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {CONFIG.software_skills.map((s) => (
@@ -495,7 +495,7 @@ const Pill = ({ children }) => (
 }
 
 // ======== SMALL PARTS ========
-function IconLink({ href, label, children }) {
+function IconLink({ href, label, children }: { href?: string; label: string; children: React.ReactNode }) {
   if (!href) return null;
   return (
     <a
