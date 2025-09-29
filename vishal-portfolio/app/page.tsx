@@ -25,10 +25,14 @@ const CONFIG = {
     resume: "/Vishal-Kumar-CV.pdf",
   },
   highlights: [
-    { label: "Amazon", value: "AI Automation Team for Supply Chain • Agentic AI Text-to-SQL" },
-    { label: "Amadeus", value: "Software Development Engineer Intern• ETL & Event‑Driven systems" },
-    { label: "Denr (Fintech)", value: "Co‑founder and CTO • React Native/Golang mobile application" },
-    { label: "MSci Computer Science in King's College London", value: "First Class Honours • Graduated in 2025" },
+    // { label: "Amazon", value: "AI Automation Team for Supply Chain -> Agentic AI Text-to-SQL." },
+    // { label: "Amadeus", value: "Software Development Engineer Intern -> ETL & Event‑Driven systems" },
+    // { label: "Denr (Fintech)", value: "Co‑founder and CTO -> React Native/Golang mobile application" },
+    // { label: "MSci Computer Science in King's College London", value: "First Class Honours (2021-2025)" },
+    { label: "Amazon", value: "Data Engineer Intern • Agentic AI Text-to-SQL" },
+    { label: "Amadeus", value: "Software Engineer Intern • ETL and Event-Driven Systems" },
+    { label: "Denr (Fintech)", value: "Co‑founder • React Native/Golang mobile application" },
+    { label: "King's College London", value: "First Class Honours • 2025" },
   ],
   software_skills: [
     "C++",
@@ -293,7 +297,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
                 {CONFIG.tagline}
               </motion.h1>
               <p className="mt-4 text-muted-foreground">
-                Currently working in the Amazon AI Automation Team for Supply Chain.
+                Currently working in the Amazon AI Automation Team for Supply Chain after completing my MSci in Computer Science.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {CONFIG.software_skills.map((s) => (
@@ -317,7 +321,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
                 {CONFIG.highlights.map((h) => (
                   <div key={h.label} className="flex items-center gap-2 rounded-full border bg-background px-3 py-1">
                     <span className="font-medium">{h.label}</span>
-                    <span>•</span>
+                    <span>:</span>
                     <span>{h.value}</span>
                   </div>
                 ))}
