@@ -133,7 +133,7 @@ const CONFIG = {
     },
     {
       company: "CoolEat (Foodtech)",
-      role: "Co‑founder / Full-Stack",
+      role: "Co‑founder / Full-Stack Engineer",
       period: "2024–2025",
       summary:
         "Led a team of 6 to construct the MVP of our web application to reduce food waste.",
@@ -155,7 +155,7 @@ const CONFIG = {
     },
     {
       company: "Denr (Fintech)",
-      role: "Co‑founder / Full-Stack",
+      role: "Co‑founder / Full-Stack Engineer",
       period: "2023–2024",
       summary:
         "Led a team of 7 to construct the MVP of our mobile application for our two-sided marketplace.",
