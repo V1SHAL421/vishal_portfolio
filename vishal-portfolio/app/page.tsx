@@ -22,7 +22,7 @@ const CONFIG = {
   links: {
     github: "https://github.com/V1SHAL421",
     linkedin: "https://www.linkedin.com/in/vishal-kumar-6b5694269/",
-    resume: "/Vishal-Kumar-CV.pdf",
+    // resume: "/Vishal-Kumar-CV.pdf",
   },
   highlights: [
     // { label: "Amazon", value: "AI Automation Team for Supply Chain -> Agentic AI Text-to-SQL." },
@@ -274,9 +274,9 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
                   {label}
                 </a>
               ))}
-              <a href={CONFIG.links.resume} className="inline-flex items-center text-sm underline-offset-4 hover:underline">
+              {/* <a href={CONFIG.links.resume} className="inline-flex items-center text-sm underline-offset-4 hover:underline">
                 <Download className="mr-1 h-4 w-4" /> Resume
-              </a>
+              </a> */}
             </nav>
             <div className="flex items-center gap-2">
               <IconLink href={CONFIG.links.github} label="GitHub"><Github className="h-5 w-5" /></IconLink>
@@ -313,9 +313,9 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
                 <Button asChild size="lg">
                   <a href="#projects">See Projects <ArrowRight className="ml-2 h-4 w-4" /></a>
                 </Button>
-                <Button asChild variant="outline" size="lg">
+                {/* <Button asChild variant="outline" size="lg">
                   <a href={CONFIG.links.resume}><Download className="mr-2 h-4 w-4" /> Download CV</a>
-                </Button>
+                </Button> */}
               </div>
               <div className="mt-8 flex flex-wrap gap-4 text-sm text-muted-foreground">
                 {CONFIG.highlights.map((h) => (
