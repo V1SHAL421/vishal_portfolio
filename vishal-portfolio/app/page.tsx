@@ -335,7 +335,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
       </section>
 
       {/* EXPERIENCE */}
-      <Section id="experience" title="Experience" subtitle="Impact first. Here are selected roles.">
+      <Section id="experience" title="Experience" subtitle="My career journey">
         <div className="grid gap-6 md:grid-cols-2">
           {CONFIG.experience.map((e) => (
             <Card key={e.company} className="overflow-hidden">
@@ -362,7 +362,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
       </Section>
 
       {/* PROJECTS */}
-      <Section id="projects" title="Projects" subtitle="Real, maintained, and used.">
+      <Section id="projects" title="Projects" subtitle="Personal and university projects.">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {CONFIG.projects.map((p) => (
             <Card key={p.title} className="group h-full">
@@ -388,7 +388,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
       </Section>
 
       {/* WRITING */}
-      <Section id="writing" title="Writing" subtitle="Notes on systems, agents, and interviews.">
+      <Section id="writing" title="Writing" subtitle="Blogs and papers.">
         <div className="grid gap-4 sm:grid-cols-2">
           {CONFIG.writing.map((w) => (
             <a key={w.title} href={w.href} className="rounded-2xl border p-5 transition hover:bg-muted/50">
@@ -440,7 +440,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
       </Section>
 
       {/* CONTACT */}
-      <Section id="contact" title="Contact" subtitle="Let’s build something useful.">
+      <Section id="contact" title="Contact" subtitle="Happy to have a chat!">
         <Card className="overflow-hidden">
           <CardContent className="grid gap-6 p-6 sm:grid-cols-2">
             <div>
