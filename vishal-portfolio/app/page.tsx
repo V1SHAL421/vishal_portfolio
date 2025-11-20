@@ -524,7 +524,7 @@ function ShowcaseCard() {
           <p className="text-sm"><span className="font-medium">Amazon FP&A Text-To-SQL Agentic AI Chatbot:</span> Scoped, designed and implemented a production-grade internal tool for financial analysis and deep dives reducing data retrieval time by 85%</p>
         </div>
         <div className="rounded-xl border bg-background p-4">
-          <p className="text-sm"><span className="font-medium">Accuracy or Interpretability:</span> Benchmarked these approaches on the Ames Housing dataset, analysing the trade-off between interpretability and accuracy and discussing the contexts where each model family is most appropriate.</p>
+          <p className="text-sm"><span className="font-medium">Containerized Gogs & VNC Development Environment:</span> A fully containerized Debian-based Gogs Git server with built-in VNC/noVNC access, Firefox, and helper scripts for automated setup, testing, and data management.</p>
         </div>
         {/* <div className="rounded-xl border bg-background p-4">
           <p className="text-sm"><span className="font-medium">Text2SQL:</span> guardrailed Bedrock agents with eval harness + drift alerts; reduced manual ops load.</p>
