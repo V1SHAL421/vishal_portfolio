@@ -521,7 +521,7 @@ function ShowcaseCard() {
       </CardHeader>
       <CardContent className="grid gap-3">
         <div className="rounded-xl border bg-background p-4">
-          <p className="text-sm"><span className="font-medium">Order Book:</span> Implemented a high-performance order matching engine designed for low-latency financial trading applications</p>
+          <p className="text-sm"><span className="font-medium">Amazon FP&A Text-To-SQL Agentic AI Chatbot:</span> Scoped, designed and implemented a production-grade internal tool for financial analysis and deep dives reducing data retrieval time by 85%</p>
         </div>
         <div className="rounded-xl border bg-background p-4">
           <p className="text-sm"><span className="font-medium">Accuracy or Interpretability:</span> Benchmarked these approaches on the Ames Housing dataset, analysing the trade-off between interpretability and accuracy and discussing the contexts where each model family is most appropriate.</p>
