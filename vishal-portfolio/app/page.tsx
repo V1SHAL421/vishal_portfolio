@@ -29,7 +29,7 @@ const CONFIG = {
     // { label: "Amadeus", value: "Software Development Engineer Intern -> ETL & Event‑Driven systems" },
     // { label: "Denr (Fintech)", value: "Co‑founder and CTO -> React Native/Golang mobile application" },
     // { label: "MSci Computer Science in King's College London", value: "First Class Honours (2021-2025)" },
-    { label: "Amazon", value: "Data Engineer Intern • Agentic AI Text-to-SQL" },
+    { label: "Amazon", value: "Data Engineer Intern • VP-visible MBR success story • Presented to senior finance leadership (3 levels below the CEO of Amazon)" },
     { label: "Amadeus", value: "Software Engineer Intern • ETL and Event-Driven Systems" },
     { label: "Denr (Fintech)", value: "Co‑founder • React Native/Golang mobile application" },
     { label: "King's College London", value: "First Class Honours • 2025" },
@@ -71,15 +71,36 @@ const CONFIG = {
     "LLMs / RAG / Agents / MCP / Fine-Tuning / Transformers"
   ],
   metrics: [
-    { kpi: "Latency cut", value: "-60%", detail: "Text-To-SQL"},
+    { kpi: "Latency cut", value: "85%", detail: "Text-To-SQL"},
     { kpi: "Ventures", value: "2", detail: "Co-founded" },
     { kpi: "Scored", value: "92%", detail: "IBM Project" },
   ],
   projects: [
     {
+      title: "Agentic AI Support Topic Intelligence System",
+      blurb:
+        "Classifies customer support queries into a three-level topic taxonomy using LLM-based inference with deterministic validation.",
+      tags: ["LLMs", "Agentic AI", "NLP", "Taxonomy", "Validation"],
+      link: "https://github.com/V1SHAL421/agentic-ai-support-topic-taxonomy",
+    },
+    {
+      title: "Competitor Analysis Chatbot",
+      blurb:
+        "An AI-powered chatbot that provides real-time competitor analysis by leveraging web scraping and natural language processing techniques.",
+      tags: ["LLM", "LangChain", "LangGraph", "Groq", "Llama-3", "Streamlit", "Python", "Pydantic"],
+      link: "https://github.com/V1SHAL421/competitor-analysis-chatbot",
+    },
+    {
+      title: "Containerized Gogs & VNC Development Environment",
+      blurb:
+        "A fully containerized Debian-based Gogs Git server with built-in VNC/noVNC access, Firefox, and helper scripts for automated setup, testing, and data management.",
+      tags: ["Docker", "Bash", "Debian", "Gogs", "VNC", "noVNC"],
+      link: "https://github.com/V1SHAL421/gogs-vnc-docker-stack",
+    },
+    {
       title: "C++ Limit Order Book",
       blurb:
-        "Modern C++ engine with lock‑free SPSC ring buffers.",
+        "Modern C++ engine with lock‑free SPSC ring buffers. A complete limit order book with price-time priority matching, lock-free concurrent processing, and a well-defined wire protocol for order submission.",
       tags: ["C++", "Concurrency", "Google Test"],
       link: "https://github.com/V1SHAL421/limit-order-book-system",
     },
@@ -115,7 +136,7 @@ const CONFIG = {
       title: "Internal Admin Dashboard",
       blurb:
         "A web application monitoring and providing metrics on users on a lending application.",
-      tags: ["Spring Boot", "AngularJS", "Docker", "Kubernetes", "Terraform"],
+      tags: ["Spring Boot", "AngularJS", "Docker", "Kubernetes", "Terraform", "Java"],
       link: "https://github.com/V1SHAL421/internal-admin-dashboard"
     }
   ],
@@ -128,7 +149,8 @@ const CONFIG = {
         "Designed an agentic Text-to-SQL pipeline to reduce financial reporting latency.",
       bullets: [
         "Implementing a production-grade, agentic AI Text-to-SQL pipeline, reducing financial reporting latency by automating queries across 100M+ rows, cutting analyst workflow time by 60%.",
-        "Designing documents to evaluate architectural trade-offs.",
+        "Selected as a success-story highlight in the director-level Monthly Business Review (MBR), giving the project VP-level visibility.",
+        "Presented project outcomes to senior finance leadership, including Amazon Finance's AI Transformation Leader (within three reporting layers of Amazon CEO Andy Jassy).",
       ],
     },
     {
@@ -140,6 +162,7 @@ const CONFIG = {
       bullets: [
         "Developed a web application for three different user flows involving Stripe payment.",
         "Pitched to accelerators, clients and external stakeholders.",
+        "Landed Barclays Eagle Labs partnership and multiple clients.",
       ],
     },
     {
@@ -162,6 +185,7 @@ const CONFIG = {
       bullets: [
         "Developed the Golang API, WebSockets-based notification service, and React Native UI.",
         "Constructed a Next.js web application, presenting our company's values and processes for user acquisition.",
+        "Landed 2 MFI partnerships.",
       ],
     },
     {
