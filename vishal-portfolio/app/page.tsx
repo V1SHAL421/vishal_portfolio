@@ -140,6 +140,15 @@ const CONFIG = {
       link: "https://github.com/V1SHAL421/internal-admin-dashboard"
     }
   ],
+  open_source: [
+    {
+      title: "pytest",
+      contribution: "Included pytest.HIDDEN_PARAM in parametrize(ids=...) type annotations",
+      description: "Fixed a typing error in pytest.mark.parametrize where it didn't allow pytest.HIDDEN_PARAM in its ids argument, bringing consistency with pytest.mark.param.",
+      link: "https://github.com/pytest-dev/pytest/pull/14246",
+      tags: ["Python", "Type Hinting", "Open Source"],
+    },
+  ],
   experience: [
     {
       company: "Amazon",
@@ -234,6 +243,18 @@ const CONFIG = {
   ],
   writing: [
     {
+      title: "Agent vs Workflow vs Deterministic Automation",
+      href: "https://substack.com/home/post/p-199087954",
+    },
+    {
+      title: "Why modern engineering teams overuse WebSockets - and when polling is actually the better architectural decision.",
+      href: "https://substack.com/home/post/p-198424154",
+    },
+    {
+      title: "AI Engineering | Gaining Tribal Knowledge",
+      href: "https://substack.com/home/post/p-198104519",
+    },
+    {
       title: "Accuracy or Interpretability? Benchmarking Linear Models Against XGBoost on Structured Data",
       href: "https://medium.com/@vishalmkumar3/accuracy-or-interpretability-benchmarking-linear-models-against-xgboost-on-structured-data-6dbd0f8aee67",
     },
@@ -291,6 +312,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
               {[
                 ["Experience", "experience"],
                 ["Projects", "projects"],
+                ["Open Source", "open-source"],
                 ["Writing", "writing"],
                 ["Contact", "contact"],
               ].map(([label, href]) => (
@@ -402,6 +424,33 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   {p.tags.map((t) => (
+                    <Pill key={t}>{t}</Pill>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </Section>
+
+      {/* OPEN SOURCE */}
+      <Section id="open-source" title="Open Source Contributions" subtitle="Contributions to community-driven projects.">
+        <div className="grid gap-6 sm:grid-cols-2">
+          {CONFIG.open_source.map((c) => (
+            <Card key={c.title} className="group h-full">
+              <CardHeader>
+                <CardTitle className="flex items-center justify-between">
+                  <span className="inline-flex items-center gap-2"><Github className="h-5 w-5" />{c.title}</span>
+                  <a href={c.link} aria-label={`Open ${c.title} PR`} className="opacity-70 transition group-hover:opacity-100">
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                </CardTitle>
+                <CardDescription className="font-medium text-foreground">{c.contribution}</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground mb-4">{c.description}</p>
+                <div className="flex flex-wrap gap-2">
+                  {c.tags.map((t) => (
                     <Pill key={t}>{t}</Pill>
                   ))}
                 </div>
