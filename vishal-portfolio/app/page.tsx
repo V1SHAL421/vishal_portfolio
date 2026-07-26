@@ -480,7 +480,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
       </Section>
 
       {/* EDUCATION & METRICS */}
-      <Section id="about" title="About" subtitle="A quick snapshot.">
+      <Section id="about" title="About">
         <p className="mb-6 text-sm text-muted-foreground">{CONFIG.summary}</p>
         <div className="grid gap-6 md:grid-cols-2">
           <Card>
@@ -526,9 +526,6 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
           <CardContent className="grid gap-6 p-6 sm:grid-cols-2">
             <div>
               <h3 className="text-lg font-medium">Open to connecting</h3>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Backend / Full-Stack / AI Systems
-              </p>
               <div className="mt-4 flex flex-wrap gap-2 text-sm text-muted-foreground">
                 <span className="inline-flex items-center gap-1"><MapPin className="h-4 w-4" /> {CONFIG.location}</span>
                 <span>•</span>
