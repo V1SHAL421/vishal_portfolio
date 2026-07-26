@@ -17,6 +17,8 @@ const CONFIG = {
   location: "London, UK",
   tagline:
     "I like to build distributed systems and solve complex problems.",
+  summary:
+    "I'm a Machine Learning Software Engineer at Amazon, specialising in Forward Deployed AI engineering — partnering directly with stakeholders to turn manual, high-friction workflows into production AI systems. I'm currently on the AI Ops Integration team, automating supply chain processes with agentic AI and computer vision, while driving R&D (research and development) at the intersection of both.",
   headshot: "/profile_pic.jpeg",
   email: "vishalmkumar3@gmail.com",
   links: {
@@ -152,6 +154,30 @@ const CONFIG = {
   experience: [
     {
       company: "Amazon",
+      role: "Machine Learning Software Engineer",
+      period: "September 2026–Present",
+      summary:
+        "Automating supply chain processes using agentic AI and computer vision as part of the AI Ops Integration team.",
+      bullets: [
+        "Partnering with internal supply chain stakeholders to identify and automate manual operational processes using agentic AI and computer vision.",
+        "Diving into research on applying agentic AI and computer vision techniques to supply chain problem spaces.",
+      ],
+    },
+    {
+      company: "TP ICAP",
+      role: "AI Engineer",
+      period: "March 2026–August 2026",
+      summary:
+        "Designed, developed and deployed 3 AI-powered products with total ROI of £250,000 automating back-office workflows (internal audit) as part of the AI Lab in a finance environment.",
+      bullets: [
+        "Automated the quarterly governance workflow for audit committee report generation using LLM summarisation, contextual numerical data, and automated report generation.",
+        "Constructed a risk and control matrix builder using pgvector, tsvector, RRF and LLM reranking, covering risk identification from audit info, control mapping and extraction from large policies, control-to-risk validation, and Excel export.",
+        "Built a concurrent batch evaluation pipeline assessing 246 enterprise policy documents (10–80 page PDFs) against auditor-defined governance rubrics, with chunked PDF ingestion from S3, structured LLM evaluation with Pydantic validation, confidence-based risk classification (green/amber/red), and automated remediation feedback for policy owners; parallelised 5 concurrent evaluations with retry handling for Bedrock throttling, enabling scalable analysis and structured JSON reporting for Internal Audit.",
+        "Developed internal DevOps automation tooling using Kiro Skills and Claude Skills/Plugins, integrating Atlassian MCP and the glab CLI to automate GitLab branch creation, Jira ticketing, and operational task orchestration across engineering pipelines.",
+      ],
+    },
+    {
+      company: "Amazon",
       role: "Data Engineer Intern",
       period: "2025",
       summary:
@@ -242,6 +268,10 @@ const CONFIG = {
     },
   ],
   writing: [
+    {
+      title: "AI Engineering with Low Volume Data",
+      href: "https://vishmkuk.substack.com/p/ai-engineering-with-low-volume-data",
+    },
     {
       title: "Agent vs Workflow vs Deterministic Automation",
       href: "https://substack.com/home/post/p-199087954",
@@ -343,7 +373,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
                 {CONFIG.tagline}
               </motion.h1>
               <p className="mt-4 text-muted-foreground">
-                Currently working in the Amazon AI Automation Team for Supply Chain after completing my MSci in Computer Science.
+                Currently working as a Machine Learning Software Engineer on Amazon's AI Ops Integration team.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {CONFIG.software_skills.map((s) => (
@@ -384,7 +414,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
       <Section id="experience" title="Experience" subtitle="My career journey">
         <div className="grid gap-6 md:grid-cols-2">
           {CONFIG.experience.map((e) => (
-            <Card key={e.company} className="overflow-hidden">
+            <Card key={`${e.company}-${e.period}`} className="overflow-hidden">
               <CardHeader>
                 <CardTitle className="flex items-center justify-between">
                   <span className="inline-flex items-center gap-2"><Briefcase className="h-5 w-5" />{e.company}</span>
@@ -474,6 +504,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
 
       {/* EDUCATION & METRICS */}
       <Section id="about" title="About" subtitle="A quick snapshot.">
+        <p className="mb-6 text-sm text-muted-foreground">{CONFIG.summary}</p>
         <div className="grid gap-6 md:grid-cols-2">
           <Card>
             <CardHeader>
