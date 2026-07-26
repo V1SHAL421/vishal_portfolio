@@ -73,7 +73,7 @@ const CONFIG = {
   ],
   metrics: [
     { kpi: "Latency cut", value: "85%", detail: "Text-To-SQL"},
-    { kpi: "ROI", value: "£250k", detail: "TP ICAP Internal Audit" },
+    { kpi: "ROI", value: "£250k", detail: "TP ICAP\n(Internal Audit)" },
     { kpi: "Scored", value: "92%", detail: "IBM Project" },
   ],
   projects: [
@@ -150,7 +150,7 @@ const CONFIG = {
       bullets: [
         "Automated the quarterly governance workflow for audit committee report generation using LLM summarisation, contextual numerical data, and automated report generation.",
         "Constructed a risk and control matrix builder using pgvector, tsvector, RRF and LLM reranking, covering risk identification from audit info, control mapping and extraction from large policies, control-to-risk validation, and Excel export.",
-        "Built a concurrent batch evaluation pipeline assessing 246 enterprise policy documents (10–80 page PDFs) against auditor-defined governance rubrics, with chunked PDF ingestion from S3, structured LLM evaluation with Pydantic validation, confidence-based risk classification (green/amber/red), and automated remediation feedback for policy owners; parallelised 5 concurrent evaluations with retry handling for Bedrock throttling, enabling scalable analysis and structured JSON reporting for Internal Audit.",
+        "Built a concurrent batch evaluation pipeline assessing 246 enterprise policy documents against auditor-defined governance rubrics, with S3 PDF ingestion, structured LLM evaluation, confidence-based risk classification (green/amber/red), and automated remediation feedback — parallelised with retry handling for Bedrock throttling.",
       ],
     },
     {
@@ -511,7 +511,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
                   <div key={m.kpi} className="rounded-xl border bg-background p-4 text-center">
                     <div className="text-xl font-semibold">{m.value}</div>
                     <div className="text-xs text-muted-foreground">{m.kpi}</div>
-                    <div className="mt-1 text-[0.7rem] text-muted-foreground">{m.detail}</div>
+                    <div className="mt-1 text-[0.7rem] text-muted-foreground whitespace-pre-line">{m.detail}</div>
                   </div>
                 ))}
               </div>
@@ -525,7 +525,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
         <Card className="overflow-hidden">
           <CardContent className="grid gap-6 p-6 sm:grid-cols-2">
             <div>
-              <h3 className="text-lg font-medium">Open to Software/AI Engineer roles</h3>
+              <h3 className="text-lg font-medium">Open to connecting</h3>
               <p className="mt-1 text-sm text-muted-foreground">
                 Backend / Full-Stack / AI Systems
               </p>
