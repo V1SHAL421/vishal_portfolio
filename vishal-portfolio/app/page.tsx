@@ -601,6 +601,9 @@ function ShowcaseCard() {
         <div className="rounded-xl border bg-background p-4">
           <p className="text-sm"><span className="font-medium">Amazon FP&A Text-To-SQL Agentic AI Chatbot:</span> Scoped, designed and implemented a production-grade internal tool for financial analysis and deep dives reducing data retrieval time by 85%</p>
         </div>
+        <div className="rounded-xl border bg-background p-4">
+          <p className="text-sm"><span className="font-medium">TP ICAP AI Lab:</span> Designed, developed and deployed 3 AI-powered products automating back-office internal audit workflows, delivering £250,000 in ROI.</p>
+        </div>
         {/* <div className="rounded-xl border bg-background p-4">
           <p className="text-sm"><span className="font-medium">Text2SQL:</span> guardrailed Bedrock agents with eval harness + drift alerts; reduced manual ops load.</p>
         </div>
