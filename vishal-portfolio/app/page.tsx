@@ -13,10 +13,10 @@ export default function Portfolio() {
 // Edit the content in the config below; no need to touch the components.
 const CONFIG = {
   name: "Vishal Kumar",
-  role: "Software/AI Engineer",
+  role: "Machine Learning Software Engineer",
   location: "London, UK",
   tagline:
-    "I like to build distributed systems and solve complex problems.",
+    "I build agentic AI systems that automate real-world workflows.",
   summary:
     "I'm a Machine Learning Software Engineer at Amazon, specialising in Forward Deployed AI engineering — partnering directly with stakeholders to turn manual, high-friction workflows into production AI systems. I'm currently on the AI Ops Integration team, automating supply chain processes with agentic AI and computer vision, while driving R&D (research and development) at the intersection of both.",
   headshot: "/profile_pic.jpeg",
@@ -31,50 +31,49 @@ const CONFIG = {
     // { label: "Amadeus", value: "Software Development Engineer Intern -> ETL & Event‑Driven systems" },
     // { label: "Denr (Fintech)", value: "Co‑founder and CTO -> React Native/Golang mobile application" },
     // { label: "MSci Computer Science in King's College London", value: "First Class Honours (2021-2025)" },
-    { label: "Amazon", value: "Data Engineer Intern • VP-visible MBR success story • Presented to senior finance leadership (3 levels below the CEO of Amazon)" },
-    { label: "Amadeus", value: "Software Engineer Intern • ETL and Event-Driven Systems" },
-    { label: "Denr (Fintech)", value: "Co‑founder • React Native/Golang mobile application" },
-    { label: "King's College London", value: "First Class Honours • 2025" },
+    { label: "Amazon", value: "Data Engineer Intern | Presented to senior finance leadership (3 levels below the CEO of Amazon)" },
+    { label: "Amadeus", value: "Software Engineer Intern | ETL and Event-Driven Systems" },
+    { label: "Denr (Fintech)", value: "Co‑founder | React Native/Golang mobile application" },
+    { label: "King's College London", value: "First Class Honours | 2025" },
   ],
   software_skills: [
-    "C++",
     "Python",
-    "Java",
-    "TypeScript/Node",
+    "TypeScript",
     "AWS",
+    "Java",
     "Azure",
     "Kafka",
-    "Terraform",
-    "PostgreSQL",
+    "SQL",
     "Golang",
     "Linux",
-    "Unix",
     "Docker",
     "Kubernetes",
     "Rust",
     "HTML/CSS"
   ],
   ai_ml_skills: [
-    "Pandas",
-    "scikit-learn",
-    "XGBoost",
-    "PyTorch",
-    "Hypothesis testing",
-    "A/B testing",
-    "Matplotlib",
-    "Seaborn",
-    "Q-Learning",
+    "LLMs / RAG / Agents / MCP / Fine-Tuning / Transformers",
+    "Vector DBs",
+    "Hybrid Search (RRF, LLM Reranking)",
     "Computer Vision",
     "Neural Networks",
     "Reinforcement Learning",
     "Deep Learning",
+    "Q-Learning",
     "OpenCV",
+    "Pandas",
+    "scikit-learn",
+    "XGBoost",
+    "PyTorch",
     "NumPy",
-    "LLMs / RAG / Agents / MCP / Fine-Tuning / Transformers"
+    "Hypothesis testing",
+    "A/B testing",
+    "Matplotlib",
+    "Seaborn"
   ],
   metrics: [
     { kpi: "Latency cut", value: "85%", detail: "Text-To-SQL"},
-    { kpi: "Ventures", value: "2", detail: "Co-founded" },
+    { kpi: "ROI", value: "£250k", detail: "TP ICAP Internal Audit" },
     { kpi: "Scored", value: "92%", detail: "IBM Project" },
   ],
   projects: [
@@ -91,20 +90,6 @@ const CONFIG = {
         "An AI-powered chatbot that provides real-time competitor analysis by leveraging web scraping and natural language processing techniques.",
       tags: ["LLM", "LangChain", "LangGraph", "Groq", "Llama-3", "Streamlit", "Python", "Pydantic"],
       link: "https://github.com/V1SHAL421/competitor-analysis-chatbot",
-    },
-    {
-      title: "Containerized Gogs & VNC Development Environment",
-      blurb:
-        "A fully containerized Debian-based Gogs Git server with built-in VNC/noVNC access, Firefox, and helper scripts for automated setup, testing, and data management.",
-      tags: ["Docker", "Bash", "Debian", "Gogs", "VNC", "noVNC"],
-      link: "https://github.com/V1SHAL421/gogs-vnc-docker-stack",
-    },
-    {
-      title: "C++ Limit Order Book",
-      blurb:
-        "Modern C++ engine with lock‑free SPSC ring buffers. A complete limit order book with price-time priority matching, lock-free concurrent processing, and a well-defined wire protocol for order submission.",
-      tags: ["C++", "Concurrency", "Google Test"],
-      link: "https://github.com/V1SHAL421/limit-order-book-system",
     },
     {
       title: "IBM Skills Build Enhancement - Client: IBM",
@@ -133,13 +118,6 @@ const CONFIG = {
         "A gamification hub with an AI-based search tool designed to encourage a young target demographic in Merton borough to be more active.",
       tags: ["AWS", "Client Relations", "Stakeholder Management", "Flutter"],
       link: "https://github.com/BJalleh26/six-guys"
-    },
-    {
-      title: "Internal Admin Dashboard",
-      blurb:
-        "A web application monitoring and providing metrics on users on a lending application.",
-      tags: ["Spring Boot", "AngularJS", "Docker", "Kubernetes", "Terraform", "Java"],
-      link: "https://github.com/V1SHAL421/internal-admin-dashboard"
     }
   ],
   open_source: [
@@ -173,7 +151,6 @@ const CONFIG = {
         "Automated the quarterly governance workflow for audit committee report generation using LLM summarisation, contextual numerical data, and automated report generation.",
         "Constructed a risk and control matrix builder using pgvector, tsvector, RRF and LLM reranking, covering risk identification from audit info, control mapping and extraction from large policies, control-to-risk validation, and Excel export.",
         "Built a concurrent batch evaluation pipeline assessing 246 enterprise policy documents (10–80 page PDFs) against auditor-defined governance rubrics, with chunked PDF ingestion from S3, structured LLM evaluation with Pydantic validation, confidence-based risk classification (green/amber/red), and automated remediation feedback for policy owners; parallelised 5 concurrent evaluations with retry handling for Bedrock throttling, enabling scalable analysis and structured JSON reporting for Internal Audit.",
-        "Developed internal DevOps automation tooling using Kiro Skills and Claude Skills/Plugins, integrating Atlassian MCP and the glab CLI to automate GitLab branch creation, Jira ticketing, and operational task orchestration across engineering pipelines.",
       ],
     },
     {
@@ -183,9 +160,9 @@ const CONFIG = {
       summary:
         "Designed an agentic Text-to-SQL pipeline to reduce financial reporting latency.",
       bullets: [
-        "Implementing a production-grade, agentic AI Text-to-SQL pipeline, reducing financial reporting latency by automating queries across 100M+ rows, cutting analyst workflow time by 60%.",
+        "Implementing a production-grade, agentic AI Text-to-SQL pipeline, reducing financial reporting latency by automating queries across 100M+ rows, cutting analyst workflow time by 85%.",
         "Selected as a success-story highlight in the director-level Monthly Business Review (MBR), giving the project VP-level visibility.",
-        "Presented project outcomes to senior finance leadership, including Amazon Finance's AI Transformation Leader (within three reporting layers of Amazon CEO Andy Jassy).",
+        "Presented project outcomes to senior finance leadership, including Amazon Finance's AI Transformation Leader (within 3 reporting layers of Amazon CEO Andy Jassy).",
       ],
     },
     {
@@ -626,9 +603,6 @@ function ShowcaseCard() {
       <CardContent className="grid gap-3">
         <div className="rounded-xl border bg-background p-4">
           <p className="text-sm"><span className="font-medium">Amazon FP&A Text-To-SQL Agentic AI Chatbot:</span> Scoped, designed and implemented a production-grade internal tool for financial analysis and deep dives reducing data retrieval time by 85%</p>
-        </div>
-        <div className="rounded-xl border bg-background p-4">
-          <p className="text-sm"><span className="font-medium">Containerized Gogs & VNC Development Environment:</span> A fully containerized Debian-based Gogs Git server with built-in VNC/noVNC access, Firefox, and helper scripts for automated setup, testing, and data management.</p>
         </div>
         {/* <div className="rounded-xl border bg-background p-4">
           <p className="text-sm"><span className="font-medium">Text2SQL:</span> guardrailed Bedrock agents with eval harness + drift alerts; reduced manual ops load.</p>
