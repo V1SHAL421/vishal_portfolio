@@ -373,7 +373,7 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
                 {CONFIG.tagline}
               </motion.h1>
               <p className="mt-4 text-muted-foreground">
-                Currently working as a Machine Learning Software Engineer on Amazon's AI Ops Integration team.
+                Currently working as a Machine Learning Software Engineer on Amazon&apos;s AI Ops Integration team.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {CONFIG.software_skills.map((s) => (
