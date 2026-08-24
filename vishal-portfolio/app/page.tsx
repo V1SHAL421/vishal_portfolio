@@ -387,6 +387,47 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
         </Container>
       </section>
 
+      {/* EDUCATION & METRICS */}
+      <Section id="about" title="About">
+        <p className="mb-6 text-sm text-muted-foreground">{CONFIG.summary}</p>
+        <div className="grid gap-6 md:grid-cols-2">
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2"><GraduationCap className="h-5 w-5" />Education</CardTitle>
+              {/* <CardDescription>Grounded theory, applied rigor.</CardDescription> */}
+            </CardHeader>
+            <CardContent>
+              <ul className="space-y-3 text-sm">
+                {CONFIG.education.map((ed) => (
+                  <li key={ed.school}>
+                    <p className="font-medium">{ed.school}</p>
+                    <p className="text-muted-foreground">{ed.period} — {ed.detail}</p>
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2"><Brain className="h-5 w-5" />Key metrics</CardTitle>
+              <CardDescription>Impact at a glance.</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="grid grid-cols-3 gap-4">
+                {CONFIG.metrics.map((m) => (
+                  <div key={m.kpi} className="rounded-xl border bg-background p-4 text-center">
+                    <div className="text-xl font-semibold">{m.value}</div>
+                    <div className="text-xs text-muted-foreground">{m.kpi}</div>
+                    <div className="mt-1 text-[0.7rem] text-muted-foreground whitespace-pre-line">{m.detail}</div>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </Section>
+
       {/* EXPERIENCE */}
       <Section id="experience" title="Experience" subtitle="My career journey">
         <div className="grid gap-6 md:grid-cols-2">
@@ -476,47 +517,6 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
               <p className="mt-1 inline-flex items-center text-sm text-muted-foreground">Read more <ExternalLink className="ml-1 h-4 w-4" /></p>
             </a>
           ))}
-        </div>
-      </Section>
-
-      {/* EDUCATION & METRICS */}
-      <Section id="about" title="About">
-        <p className="mb-6 text-sm text-muted-foreground">{CONFIG.summary}</p>
-        <div className="grid gap-6 md:grid-cols-2">
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2"><GraduationCap className="h-5 w-5" />Education</CardTitle>
-              {/* <CardDescription>Grounded theory, applied rigor.</CardDescription> */}
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-3 text-sm">
-                {CONFIG.education.map((ed) => (
-                  <li key={ed.school}>
-                    <p className="font-medium">{ed.school}</p>
-                    <p className="text-muted-foreground">{ed.period} — {ed.detail}</p>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2"><Brain className="h-5 w-5" />Key metrics</CardTitle>
-              <CardDescription>Impact at a glance.</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="grid grid-cols-3 gap-4">
-                {CONFIG.metrics.map((m) => (
-                  <div key={m.kpi} className="rounded-xl border bg-background p-4 text-center">
-                    <div className="text-xl font-semibold">{m.value}</div>
-                    <div className="text-xs text-muted-foreground">{m.kpi}</div>
-                    <div className="mt-1 text-[0.7rem] text-muted-foreground whitespace-pre-line">{m.detail}</div>
-                  </div>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </Section>
 
