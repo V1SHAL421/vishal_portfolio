@@ -78,11 +78,11 @@ const CONFIG = {
   ],
   projects: [
     {
-      title: "Agentic AI Support Topic Intelligence System",
+      title: "SupplyAgentBench",
       blurb:
-        "Classifies customer support queries into a three-level topic taxonomy using LLM-based inference with deterministic validation.",
-      tags: ["LLMs", "Agentic AI", "NLP", "Taxonomy", "Validation"],
-      link: "https://github.com/V1SHAL421/agentic-ai-support-topic-taxonomy",
+        "An M5 demand-forecasting pipeline from raw sales data to LLM-agent-driven inventory decisions — validated forecasts, cost-optimal stocking via newsvendor theory, and a tool-using agent with its own eval suite.",
+      tags: ["LLM Agents", "Demand Forecasting", "M5", "Newsvendor Theory", "Evals", "Supply Chain", "Python"],
+      link: "https://github.com/V1SHAL421/SupplyAgentBench",
     },
     {
       title: "Competitor Analysis Chatbot",
